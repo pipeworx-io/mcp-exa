@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-exa",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Exa MCP — neural/semantic web search + content retrieval (exa.ai)",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-exa": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "exa"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-exa"
+    "url": "git+https://github.com/pipeworx-io/mcp-exa.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-4d7f9cef4e07507ca18dbeaf292cc01a9abd5ae13726f8d2ed6b8903651c4da5",
+    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
   }
 }
