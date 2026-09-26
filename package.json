@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-exa",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Exa MCP — neural/semantic web search + content retrieval (exa.ai)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-4d7f9cef4e07507ca18dbeaf292cc01a9abd5ae13726f8d2ed6b8903651c4da5",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-543ee2ca9853fe5ca5bc954573893304d5523bf2dd6860de1660382e8f18303f",
+    "sourceCommit": "91681e9a4a137fa0051d58e32f38c64b6334af5c"
   }
 }
