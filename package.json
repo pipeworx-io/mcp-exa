@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-exa",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Exa MCP — neural/semantic web search + content retrieval (exa.ai)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "exa",
     "gatewaySlug": "exa",
-    "sourceHash": "v1-3dcfea01628bfcae673e862c7dddc5c8053b53093e190b284e42399b1b4e78fa",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-fbd6ea992f7b6ebefc03459aaef45f2fe19e4a7fc629b2d09b64047e4196d878",
+    "sourceCommit": "d35e32c1ffe988e24d391dedb35666387fd2b3d6"
   }
 }
